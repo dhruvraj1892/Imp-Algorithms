@@ -17,7 +17,7 @@ struct Node{
     bool isEnd(){
         return flag;
     }
-}
+};
 class Trie{
     private: Node* root;
     public:
@@ -41,4 +41,4 @@ class Trie{
         }
         return node->isEnd();
     }
-}
+};
